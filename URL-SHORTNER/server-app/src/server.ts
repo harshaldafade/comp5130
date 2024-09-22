@@ -15,7 +15,7 @@ app.use(cors({
     credentials: true,
 })); 
 
-app.use("/api/", shortUrl);
+//app.use("/api/", shortUrl);
 
 app.listen(port,()=>{
     console.log(`Server started successfully on port : ${port}`);
