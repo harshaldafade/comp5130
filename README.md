@@ -19,27 +19,6 @@ A full-stack URL shortener built with **React + TypeScript + Tailwind** on the f
 
 ---
 
-## 📁 Folder Structure
-
-```
-URL-SHORTNER/
-├── client-app/
-│   └── url-shortner-app/     # React app
-│       ├── public/
-│       ├── src/
-│       │   ├── components/   # UI components
-│       │   ├── helpers/      # Constants
-│       │   └── interface/    # TypeScript types
-├── server-app/               # Node/Express backend
-│   ├── src/
-│   │   ├── config/           # DB config
-│   │   ├── controllers/      # Logic for shortening/redirect
-│   │   ├── model/            # Mongoose schema
-│   │   └── routes/           # API routes
-```
-
----
-
 ## 🧪 API
 
 ### `POST /api/shorten`
@@ -63,7 +42,7 @@ Redirects to the original URL. Increments click count.
 ```bash
 cd server-app
 npm install
-# Add .env with MONGO_URI
+# Add .env with CONNECTION_STRING
 npm run dev
 ```
 
@@ -79,9 +58,7 @@ npm run dev
 ## 🌱 .env Example
 
 ```env
-MONGO_URI=mongodb://localhost:27017/shorturl
-PORT=5000
-BASE_URL=http://localhost:5000
+CONNECTION_STRING=mongodb://localhost:27017/shorturl
 ```
 
 ---
