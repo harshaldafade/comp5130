@@ -81,7 +81,7 @@ clicks: Number
 
 ---
 
-## 📸 Basic UI Screenshots
+## 📸 UI Screenshots
 
 
 ![0](https://github.com/user-attachments/assets/0d8fc363-9c31-4c43-b5b0-4a5ee6fc56c9)
