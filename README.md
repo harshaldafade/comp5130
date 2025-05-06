@@ -89,7 +89,3 @@ clicks: Number
 
 
 ---
-
-## 📄 License
-
-MIT
