@@ -81,12 +81,12 @@ clicks: Number
 
 ---
 
-## 📸 Screenshot Placeholder
+## 📸 Basic UI Screenshots
 
-*
+
 ![0](https://github.com/user-attachments/assets/0d8fc363-9c31-4c43-b5b0-4a5ee6fc56c9)
 ![1](https://github.com/user-attachments/assets/822fc8ea-4e0e-4926-9f46-beb6d7a2dc48)
-*
+
 
 ---
 
